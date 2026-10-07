@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Remote Monaco Editor Collaborator Cursor & Caret styling */
+.remote-cursor {
+  background-color: rgba(59, 130, 246, 0.2);
+  border-left: 2px solid #3b82f6;
+}
+
+.remote-caret-usr_rahul_102 {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.remote-caret-usr_sai_103 {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+/* Custom scrollbars for IDE look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
